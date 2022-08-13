@@ -1,9 +1,10 @@
-<div align="center"><img src="https://user-images.githubusercontent.com/102123328/184472152-273e37d0-6a9a-4d66-9333-dba44f087813.jpg" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/102123328/184472353-50898076-0217-4fb9-bb9d-b241376f729e.png" /></div>
 
 <h3 align="center"> Clientes App </h3>
 <p align="center">🚀  Conexão do back ao front Angular DH-Serasa </p>
 
 <hr>
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
