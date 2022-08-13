@@ -1,0 +1,44 @@
+<form #f="ngForm">
+  <div class="form-group">
+    <div class="row">
+      <div class="col-md-2">
+        <label class="col-form-label">CEP:</label>
+        <input class="form-control" type="text" id="cep" name="cep" ngModel #cep="ngModel"
+          (blur)="buscarCep($event.target.value,f)" />
+      </div>
+      <div class="col-md-8">
+        <label class="col-form-label">Logradouro:</label>
+        <input class="form-control" type="text" id="logradouro" name="logradouro" ngModel #logradouro="ngModel"
+          placeholder="Endereço" disabled />
+      </div>
+      <div class="col-md-2">
+        <label class="col-form-label">Numero:</label>
+        <input class="form-control" type="text" id="numero" name="numero" placeholder="Numero" />
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3">
+        <label class="col-form-label">Complemento:</label>
+        <input class="form-control" type="text" id="Complemento" name="complemento" placeholder="Complemento" />
+      </div>
+      <div class="col-md-3">
+        <label class="col-form-label">Bairro:</label>
+        <input class="form-control" type="text" id="bairro" name="bairro" ngModel #bairro="ngModel" placeholder="Bairro"
+          disabled />
+      </div>
+      <div class="col-md-3">
+        <label class="col-form-label">Cidade:</label>
+        <input class="form-control" type="text" id="localidade" name="localidade" ngModel #localidade="ngModel"
+          placeholder="Cidade" disabled />
+      </div>
+      <div class="col-md-2">
+        <label class="col-form-label">UF:</label>
+        <input class="form-control" type="text" id="uf" name="uf" ngModel #uf="ngModel" placeholder="Estado" disabled />
+      </div>
+    </div>
+    <br />
+
+  </div>
+
+</form>

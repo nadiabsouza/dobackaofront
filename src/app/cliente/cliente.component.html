@@ -1,0 +1,25 @@
+
+
+<div class="container">
+    <form #clienteForm="ngForm" (ngSubmit)="onSubmit()" class="form-group">
+        <label class="col-sm-2 col-form-label">Nome:</label>
+        <input class="form-control" type="text" [(ngModel)] = "cliente.nome" name="nome" />
+
+        <label class="col-sm-2 col-form-label">Sobrenome:</label>
+        <input class="form-control" type="text"  [(ngModel)] = "cliente.sobrenome" name="sobrenome"/>      
+
+        <label class="col-sm-2 col-form-label">Nome Social:</label>
+        <input class="form-control" type="text"  [(ngModel)] = "cliente.nomeSocial" name="nomeSocial"/>
+      
+        <label class="col-sm-2 col-form-label">Email:</label>
+        <input class="form-control" type="text"  [(ngModel)] = "cliente.email" name="email"/>
+        <br />
+
+        <label class="col-sm-2 col-form-label">Ativo:</label>
+        <input class="form-control" type="text"  [(ngModel)] = "cliente.ativo" name="ativo"/>
+        <br />
+       
+        <button type="submit" class="btn btn-success"> Novo </button>
+    </form>
+
+</div>
