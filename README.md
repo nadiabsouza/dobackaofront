@@ -1,12 +1,9 @@
-<div align="center"><img src="https://user-images.githubusercontent.com/102123328/184472381-51ba6c31-f922-42cc-8abf-97787d6b37e9.png" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/102123328/184472505-b12dcf3c-d9d8-46cd-87e2-42bfe5c0f79a.png" /></div>
 
 <h3 align="center"> CepApp </h3>
 <p align="center">🚀  Conexão do back ao front Angular DH-Serasa </p>
 
 <hr>
-
-
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
 
